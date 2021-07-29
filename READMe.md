@@ -1,5 +1,7 @@
 # vim-tierlist
 
+![tierlist demo](./assets/demo.png)
+
 1. Run `:TierListGen` in a new buffer
 
 2. Type out items at the bottom
