@@ -4,6 +4,7 @@ function! MoveToTier(tier)
   let locs = { "S": 2, "A": 5, "B": 8, "C": 11, "D": 14 }
   let lnum = locs[a:tier]
   call setline(lnum, getline(lnum) . ' ' . word)
+  redraw
 endfunction
 
 function! TierListGen()
